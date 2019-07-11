@@ -1,0 +1,400 @@
+body,
+div,
+a,
+span,
+img,
+strong,
+ul,
+li,
+header,
+footer,
+main,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: ".";
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body {
+    font-size: 1;
+}
+
+.w {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.topBar {
+    height: 80px;
+}
+
+.topBar .iner {
+    height: 100%;
+    position: relative;
+}
+
+.topBar .iner h1 a {
+    width: 114px;
+    height: 20px;
+    background: url("../需要的图片/logo.png");
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+}
+
+.topBar .iner ul {
+    top: 35px;
+    position: absolute;
+    left: 437px;
+}
+
+.topBar .iner ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+.topBar .iner ul li a {
+    font-size: 14px;
+}
+
+.topBar .iner ul li:last-child a {
+    background: url("../需要的图片/icon.png");
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
+.beiJing {
+    background-color: #7086af;
+}
+
+.beiJing .zuoyoujiantou a:first-child {
+    color: #fff;
+    position: absolute;
+    top: 331px;
+    left: 564px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.beiJing .zuoyoujiantou a:last-child {
+    color: #fff;
+    position: absolute;
+    top: 331px;
+    right: 294px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+
+.beiJing .beij {
+    background: url("../需要的图片/banner.png");
+    height: 480px;
+    position: relative;
+}
+
+.beiJing .celan {
+    position: relative;
+    width: 224px;
+    height: 480px;
+    background-color: #dce0e8;
+}
+
+.beiJing .celan ul {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+}
+
+.beiJing .celan ul li {
+    margin-bottom: 35px;
+    width: 224px;
+    height: 100%;
+    /* a标签没有高度 */
+}
+
+.beiJing .celan ul li a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.beiJing .iner .yuanxin ul {
+    position: absolute;
+    left: 570px;
+    bottom: 13px;
+}
+.beiJing .iner .yuanxin .yuan li {
+        width: 12px;
+        height: 12px;  
+        border-radius: 6px;
+        border: 1px solid #bdbdbd;
+        margin-right: 12px;
+        float: left;
+}
+
+.beiJing .iner .yuanxin .yuan .zuihou {
+    background-color: #003cf5;
+    border: none;
+}
+
+.main {
+    height: 140px;
+    background-color: #fff;
+}
+
+.main .iner {
+    position: relative;
+}
+
+.main .iner ul {
+    margin-top: 6px;
+}
+
+.main .iner ul li {
+    width: 243px;
+    height: 140px;
+    background-color: #eee;
+    float: left;
+    margin-right: 5px;
+}
+
+
+.main .iner ul li a p {
+    position: absolute;
+}
+
+.main .iner ul li a p:nth-child(odd) {
+    background: url("../需要的图片/sq.png");
+
+}
+.main .iner ul li a p:first-child {
+    width: 27px;
+    height: 27px;
+    left: 45px;
+    top: 16px;
+}
+
+.main .iner ul li a p:nth-child(2) {
+    left: 28px;
+    top: 48px;
+}
+
+.main .iner ul li a p:nth-child(3) {
+    width: 27px;
+    height: 27px;
+    top: 15px;
+    left: 170px;
+    background-position: 0 -40px;
+}
+
+.main .iner ul li a p:nth-child(4) {
+     left: 150px;
+     top: 49px;
+}
+
+.main .iner ul li a p:nth-child(5) {
+    width: 28px;
+    height: 26px;
+    background-position: 0 -80px;
+    left: 49px;
+    top: 85px;
+}
+
+
+.main .iner ul li a p:nth-child(6) {
+    top: 115px;
+    left: 28px;
+}
+
+.main .iner ul li a p:nth-child(7) {
+    height: 25px;
+    width: 27px;
+    background-position: 0 -123px;
+    left: 170px;
+    top: 85px;
+}
+
+.main .iner ul li a p:nth-child(8) {
+    top: 115px;
+    left: 142px;
+}
+
+.main .iner ul li img{
+    width: 244px;
+    height: 140px;
+}
+
+.hot {
+    height: 93px;
+}
+
+.hot .iner {
+    height: 100%;
+    position: relative;
+}
+
+.hot .iner a:first-child {
+    color: #000;
+    line-height: 93px;
+    float: left;
+    font-size: 24px;
+}
+
+.hot .iner p:nth-child(2) {
+    float: right;
+    line-height: 93px;
+    font-size: 20px;
+    line-height: 93px;
+    text-align: center;
+    margin-right: 15px;
+    color: #efefef;
+}
+
+.hot .iner .rightBox {
+    width: 28px;
+    height: 28px;
+    border: 1px solid  #efefef;
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top: 35px;
+}
+
+.hot .iner p:nth-child(4) {
+    float: right;
+    line-height: 93px;
+    font-size: 20px;
+    line-height: 93px;
+    text-align: center;
+    color: #bdbdbd;
+}
+
+.hot .iner .leftBox {
+    width: 28px;
+    height: 28px;
+    border: 1px solid  #bdbdbd;
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top: 35px;
+    margin-right: 40px;
+}
+
+.tupian {
+    height: 338px;
+}
+
+.tupian .iner {
+    height: 338px;
+    position: relative;
+}
+
+.tupian .iner ul li {
+    width: 246px;
+    height: 336px;
+    border: 1px solid #ededed;
+    float: left;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.tupian .iner ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.tupian .iner ul li .first {
+    color: #333;
+    padding-top: 20px;
+}
+
+.tupian .iner ul li .third {
+    color: #666;
+    padding-top: 10px;
+    font-size: 14px;
+} 
+
+.tupian .iner ul li .second {
+    color: red;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.bottombj {
+    height: 160px;
+    margin-top: 18px;
+}
+
+.bottombj .iner {
+    position: relative;
+    height: 160px;
+}
+
+.bottombj .iner p {
+    position: absolute;
+    bottom: 0;
+    background: url("../需要的图片/meiX.jpg");
+    height: 120px;
+    width: 1240px;
+}
+
+.bottomBar {
+    height: 111px;
+}
+
+.bottomBar .iner {
+    height: 111px;
+    position: relative;
+}
+
+.bottomBar .iner ul {
+    padding-top: 25px;
+}
+
+.bottomBar .iner ul li {
+    float: left;
+}
+
+.bottomBar .iner ul .line {
+    width: 1px;
+    height: 18px;
+    background-color: #666;
+    margin: 0 15px;
+    float: left;
+    margin-top: 2px;
+}
+
+.bottomBar .iner ul li a {
+    color: #666;
+    font-size: 15px;
+}
+
+.bottomBar .iner p {
+    font-size: 15px;
+    color: #666;
+    margin-top: 22px;
+}
